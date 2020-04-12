@@ -3,31 +3,147 @@
 <html>
 <head>
 	<title>My web page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<style type="text/css">
 		#top{
 			text-align: center;
 			font-size: 40px;
+			color: blue;
 		}
 		#middle{
 			text-align: center;
 			font-size: 20px;
 		}
+
+		#bottom-up{
+
+		}
 		#bottom{
 			text-align: left;
-			font-size: 10px;
+			font-size: 15px;
+			margin: 5px;
+			font-family: cursive;
+
+		}
+		table{
+			width: 95%;
+			border: 2px solid black;
+			border-collapse: collapse;
+			margin: 5px;
+			font-family: cursive;
+		}
+
+		th, td{
+			border: 1px solid black;			
+			padding: 2px;
+			text-align: center;
+			
+		}
+		th{
+			background-color: lightgray;
+
+		}
+		td{
+			font-size: 14px;
+		}
+
+
+		.table-bottom{
+			width: 95%;
+			border: 0px solid black;
+			border-collapse: collapse;
+			margin: 5px;
 		}
 	</style>
 </head>
 <body>
 	<div id="top">
-		This is a top message.
+		Covid-19 Status Bangladesh
 	</div>
 	<div id = "middle">
-		This is a message for the middle section.
+		<table >
+	      <thead>
+	        <tr>
+	          <th>Updated on 12-04-2020</th>
+	          <th>IEDCR lab</th>
+	          <th>Other lab</th>
+	          <th>Total</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	      
+	        <tr>
+	          <td>COVID-19 test conducted in last 24 hours</td>
+	          <td>209</td>
+	          <td>1131</td>
+	          <td>1340</td>
+	        </tr>
+
+	      
+	        <tr>
+	          <td>Total COVID-19 test conducted</td>
+	          <td>3384</td>
+	          <td>6269</td>
+	          <td>9653</td>
+	        </tr>
+
+	      
+	        <tr>
+	          <td>COVID-19 positive cases in last 24 hours</td>
+	          <td>44</td>
+	          <td>95</td>
+	          <td>139</td>
+	        </tr>
+
+	      
+	        <tr>
+	          <td>COVID-19 Total cases</td>
+	          <td>316</td>
+	          <td>305</td>
+	          <td>621</td>
+	        </tr>
+
+	            </tbody>
+	    </table>
 		
 	</div>
+	<div id="bottom-up">
+		<table class="table-bottom">
+			<thead>
+				<tr>
+					<th>
+						Recovered in last 24 hours
+					</th>
+					<th>
+						Total Recovered
+					</th>
+					<th>
+						Death in last 24 hours
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+				
+					<tr>
+						<td>
+							<center><h3 >39</h3></center>
+						</td>
+						<td>
+							<center><h3>4</h3></center>
+						</td>
+						<td>
+							<center><h3 style="color: red">34</h3></center>
+						</td>
+					</tr>
+					
+				
+				
+			</tbody>
+		</table>
+	</div>
 	<div id ="bottom">
-		Message on footer.
+		Source : <a href="https://www.iedcr.gov.bd/"> IEDCR bangladesh</a>
 	</div>
 </body>
 </html>
