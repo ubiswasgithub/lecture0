@@ -1,0 +1,66 @@
+nav a::before{
+				font-weight:bold;
+
+			}
+nav{
+	
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+	padding: 0px;
+	background-color: #00b2ff;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 30px;
+
+}
+nav > ul > li > a {
+    
+    display: block;
+    text-decoration: none;
+
+}
+body {
+	background-color: #87CEEB;
+	
+}
+
+body > section{
+	padding-top: 20px;
+}
+table{
+			width: 100%;
+			border: 2px solid black;
+			border-collapse: collapse;
+			margin: 1px;
+			font-family: cursive;
+			
+		}
+
+		th, td{
+			border: 1px solid black;			
+			padding: 2px;
+			text-align: center;
+			
+		}
+		th{
+			
+
+		}
+		td{
+			font-size: 14px;
+		}
+
+
+input[type=text]{
+	background-color: red;
+}
+input[type=password]{
+	background-color: yellow;
+}
+input[type=list]{
+	background-color: yellow;
+}
